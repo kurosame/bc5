@@ -1,3 +1,5 @@
 .envrc
+bin/
 pkg/
-src/default/vendor/
+github.com/
+golang.org/
