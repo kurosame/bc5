@@ -11,3 +11,8 @@ func CreateBlock(data string, prevBlockHash []byte) *model.Block {
 	block.SetHash()
 	return block
 }
+
+// CreateGenesisBlock creates a Genesis Block
+func CreateGenesisBlock() *model.Block {
+	return CreateBlock("Genesis Block", []byte{})
+}
